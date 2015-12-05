@@ -1,0 +1,674 @@
+2014-06-13
+//关于ctp fix
+D:\Weisoft Stock\FIX42.xml
+D:\Weisoft Stock\temp\Weather.xml
+
+有人用过gsl吗? inverse matrix有什么简便办法? 非常感谢Back
+lapack
+
+2014-06-17
+金字塔自编指数
+http://www.weistock.com/WeisoftHelp/index.html?pzhq001.htm 
+							   //漂亮的外衣，卖方
+							   //performane attribution 
+							   //rsk mgnmt
+							   //第三方投顾如何打分？粗糙的skip？止损？
+								交易数据？引火
+									日nav？
+										p vs q? tfs
+Performance Analysis
+Style Analysis
+    factoranalysis
+Risk Analysis
+var
+moments and comomoment
+     corr matrix
+
+上期所有色指数
+	//年内推出，现金交割，套利？套中套？
+
+
+2014-06-20
+myfeed初步测试：
+maxlen@Feed(maxlen) 可以很大，43000都没事，但是速度明显慢下来。
+strategy还不能处理None，目前暂时遇到此类数据时掠过。
+
+2014-06-23
+pyalgo, trader??
+gcc -print-search-dirs
+ldd t33
+
+ I push data from IB clients into a zeromq instance. Zeromq publishes data via a single thread (producer) to the subscribing strategies. Strategies process this data in multiple threads. The delays are
+invisible to the naked eye, and works fine for my requirements. The benefit is that I can merge multiple account feeds to get more market data lines, to be used across multiple algos. If needed, one can replace
+IB feed with esignal, 0MQ does the decoupling. See if this works for you.
+
+http://www.emacswiki.org/emacs/PuTTY#toc7
+http://the.earth.li/~sgtatham/putty/0.62/htmldoc/Chapter4.html#config-keyboard
+http://dev.mysql.com/get/Downloads/Connector-Python/mysql-connector-python_1.2.2-1ubuntu12.04_all.deb
+
+
+时间       时长         课程名称              内容
+7月8日     2小时        多交易中心架构基础    V8t系统特点、多交易中心实现原理、业务流程变更等
+7月9日     1.5-2小时    终端操作              交易员、风控终端与v6保持一致，主要是V8t交易管理的使用
+
+
+仿真客户660800209917 CTP仿真已开，金仕达仿真为只可平仓状态
+
+
+laozi
+
+
+ 
+huojim@126.com
+
+//windows下方法
+// net stat mysql （对应的服务关闭命令为 net stop mysql）
+2014-08-07
+It's time to say goodbye.
+2014-08-11
+sudo /etc/init.d/vsftpd stop
+
+2014-09-10
+//人寿的项目，准备。boost STL。
+文华的策略，可否用pyalgtrd?
+wind每日行情view quantView：mysql预处理-清洗、简单统计
+sales：开发点客户？
+
+
+模拟交易服务器整体上缺少合约，如下：
+细木工板、鲜鸡蛋、平板玻璃、热轧卷、焦炭、晚籼稻、甲醇-新合约、油菜籽、菜籽粕、硅铁、硅锰。大约150个合约，但是成交量大多不活跃，除少数几个。
+
+
+2014-09-18
+TA-lib: 200指标；candle模式识别；开源
+2014-09-22
+guest@218.28.235.250:2122
+
+2014-10-14
+http://www.cnblogs.com/Dario67/archive/2011/12/11/2284294.html 
+默认的快捷键主要有: F2: new window , F3/F4: switch , F5 reload, F6: Detach, F7: 回滚模式, F8: rename, F12:lockscreen
+
+如果你用的是 putty, 它默认的按键绑定跟 byobu 的冲突. 在 putty的 Terminal => Keyboard 配置里选 "Xterm R6" 后保存, 上面的快捷键就都可以用了
+http://stackoverflow.com/questions/10731099/byobu-hard-status-line-scrolls-the-screen-when-updating 
+https://help.ubuntu.com/community/Byobu 
+
+2014-10-15
+我是银河期货的王卫 ，下面是项目管理系统的登录信息：
+http://dev.yhqh.com.cn/redmine
+wangchongyang   wcy9128 
+登录后请自己修改密码 ，如有问题，请随时联系我们， 谢谢。
+
+//项目 
+//ZT:
+record 1 day's ctp mkt info data, make 1 file.然后做一个行情发送模拟器,读这个文件,按照CTP的格式发送出去.
+还有模拟报单和成交部分,不用做得很复杂,把流程走通就行了.
+onAsk, onBid，onTrade等以后再说吧。
+
+2014-10-16
+电脑重装计划
+系统修复 打补丁 
+还原点
+浏览器 putty
+开发环境 
+python miniconda简装办 notepad  
+youdao.note.dic 
+2014-10-17
+//boost安装后续
+The Boost C++ Libraries were successfully built!
+The following directory should be added to compiler include paths:
+D:\\Documents\\Downloads\\boost-1_56_0
+The following directory shoudl be added to linker library paths:
+D:\\Documents\\Downloads\\boost_1_56_0\\stage\\lib
+
+有放在项目里和放在放在vs设置里两种,显然是前者:属性=>配置属性=>VC++目录，包含目录，库目录
+
+模拟数据发送 vs熟悉环境 boost fastDb?
+	     ali=>local蹂躏
+		最终也是在linux下
+
+2014-10-23
+*.txt.gz文件怎么打开?7z e *
+
+Creation of the naming context failed: context is read only
+SERVERE: Error deploying configuration descriptor docs.xml
+java.lang.SecurityExeption: Servlet of class org.apache.catalina.servlet.CGIServlet is priviledged and cannot be loaded by this web application.
+
+2014-10-24
+What are the differences between text file and binary file in c++?
+Text file: ascii code between no. 32 until 127
+Binary file: all of ascii code no. 0 until 255 
+http://www.felgall.com/cplus4.htm  
+
+http://stackoverflow.com/questions/25383624/communication-between-c-and-python 
+socket, pipes  
+
+不以成败论英雄.
+http://www.yolinux.com/TUTORIALS/LinuxTutorialC++CGI.html  
+http://www.tutorialspoint.com/cplusplus/cpp_web_programming.htm 
+http://www.ietf.org/rfc/rfc3875   
+http://www.digikey.com/en/articles/techzone/2012/dec/buffered-communication-between-real-time-software-processes 
+http://stackoverflow.com/questions/16624520/communication-between-php-and-perl-cgi-scripts 
+http://en.wikipedia.org/wiki/Common_Gateway_Interface 
+http://osdir.com/ml/users-tomcat.apache.org/2010-01/threads.html 
+
+2014-10-27
+export SQLITE_LIB=/opt/sqlite-amalgamation-3080700/
+export SQLITE_DB=/var/lib/tomcat6/webapps/ROOT/WEB-INF/cgi/
+
+sqlite3_column_text returns a const unsigned char*, how do I convert this to a std::string? I've tried std::string(), but I get an error.
+temp_doc.uuid = std::string(reinterpret_cast<const char*>(
+      sqlite3_column_text(this->stmts.read_documents, 0)
+  ));
+
+c-str:声明之后先memset,再strcpy.
+
+http://cn.bing.com/search?q=%E5%A6%82%E4%BD%95%E8%AE%A9%E7%BD%91%E9%A1%B5%E6%9C%8D%E5%8A%A1%E5%99%A8%E4%B8%BB%E5%8A%A8%E6%8E%A8%E9%80%81%E5%86%85%E5%AE%B9&qs=n&form=QBRE&pq=%E5%A6%82%E4%BD%95%E8%AE%A9%E7%BD%91%E9%A1%B5%E6%9C%8D%E5%8A%A1%E5%99%A8%E4%B8%BB%E5%8A%A8%E6%8E%A8%E9%80%81%E5%86%85%E5%AE%B9&sc=0-5&sp=-1&sk=&cvid=830182eda24243ed87d83eefa58ff970
+http://www.verydemo.com/demo_c222_i2077.html
+
+2014-10-28
+http://stackoverflow.com/questions/4382945/abstract-methods-in-python 
+
+
+
+//**LZJ:本项目独立于银河的,与他们无关;每秒钟2次推送行情,(来自数据库??);接收端的操作系统是Linux，不急
+log4cplus:CS，CTP+buffer+client，CTP+mysql+client???
+pyalgotrade：摸一遍布容易，为了忘却的纪念。
+
+
+
+关于K线合成，由快照：
+本质是如何将左闭右开的切片合成大区间，并作统计的问题。
+大区间类似的，应该也是左闭右开：被分割的小区间算作右侧大区间。
+步骤：
+1）生成间断时间点，由间断点生成左闭右开的大区间
+   标出每个间断点
+2）大区间内OHLCAVOint形成：
+a. 若是集合竞价，则生成相应K线
+b. 若不是集合竞价
+   while vector not empty
+   if tick comes
+      if 1st tick
+      	     O = H = L = C =lastprice
+	       	 A = delta(A), V=delta(V), Oint=Oint
+		     Accum(A,V),Oint
+			else
+					update H, L, C,Accum(A,V),Oint
+					else
+						empty Kline formed.
+
+
+2014-11-03
+// mongoose
+http://stackoverflow.com/questions/19419642/how-can-i-build-the-mongoose-web-server-on-linux 
+http://blog.csdn.net/huolianglee/article/details/7934069
+http://www.cnblogs.com/skynet/archive/2010/07/24/1784322.html
+https://github.com/cesanta/ssl_wrapper
+https://github.com/cesanta/frozen
+https://github.com/cesanta/mongoose
+http://cesanta.com/docs.shtml	//OFFICIAL commercial mode
+
+2014-11-05
+//SLB服务器负载均衡
+http://www.aliyun.com/product/slb?spm=5176.1000012.1997.7.IuG3ON 
+实名制的坏处? 
+
+2014-11-06
+ # yum install p7zip
+ # 7za x seal-script-darkness.7z
+
+http://www.tuicool.com/articles/NjYJ3im
+http://www.ehow.com/how_7290303_copy-paste-putty.html
+http://zh200581134.blog.163.com/blog/static/960102020109183457785/
+http://blog.csdn.net/jiangxinyu/article/details/7754664
+
+2014-11-11
+http://www.cnblogs.com/goodspeed/archive/2012/08/06/python_collections.html 
+http://blog.csdn.net/iamaiearner/article/details/9294497
+
+2014-11-13
+locate libssl.so
+ln -s /lib/x86_64-linux-gnu/libssl.1.0.0 /usr/lib/libssl.so
+
+Http定义了与服务器交互的不同方法，最基本的方法有4种，分别是GET，POST，PUT，DELETE。URL全称是资源描述符，我们可以这样认为：一个URL地址，它用于描述一个网络上的资源，而HTTP中的GET，POST，PUT，DELETE就对应着对这个资源的查，改，增，删4个操作。到这里，大家应该有个大概的了解了，GET一般用于获取/查询资源信息，而POST一般用于更新资源信息。
+http://www.w3schools.com/tags/ref_httpmethods.asp 
+
+http://blog.sina.com.cn/s/blog_4d910ea50100omv1.html
+http://www.cplusplus.com/reference/new/operator%20new%5B%5D/
+2014-11-14
+http://blog.csdn.net/Matrix_Designer/article/details/5869883
+http://blog.sina.com.cn/s/blog_a3052b4a0100ynve.html 
+C-x k
+http://blog.csdn.net/matrix_designer/article/details/5867598
+
+
+2014-11-17
+
+TradeBase\util\MsgQueue.h 打字错误
+void DeleteMsgQueye(CMsgQueuePtr pMsgQueue);
+
+为何buffer都用char而不用已知数据类型初始化??>?
+
+//TradeStrategy\RealTime\MsgManager.cpp
+void CMsgManager::InitMsgHandler()
+为何不把handler的rspLogin等设计成虚函数，而用bind？？？更好的理解代码,以及扩展.
+
+m_pThread = boost::shared_ptr<boost::thread>(new boost::thread(boost::bind(&CMsgDispatch::ProcessThread, this)));
+m_pThread = boost::shared_ptr<boost::thread>(new boost::thread(boost::bind(&CMsgManager::ProcessThread, this)));
+
+int p = pMsgBody->GetType();
+map<int, MsgProcessHandler >::iterator it = m_MsgHandle.find(pMsgBody->GetType());
+//是否可以将p替换至下面的内容?
+
+void CMsgDispatch::OnDispatch(CMsgBodyPtr pMsgBody)
+//还未实现.
+
+CMsgChannel初始化之后,新生成的pipe是怎么填满的?
+
+可以一口气把pipe塞满么?==>order如何对接?
+
+CTradeApiProxy也要写么?NO?
+
+void PreSubscribe(CSubscriptMarketDataPtr pSubscript);
+
+
+hamster
+git4windows
+emacs+windows, emacs+python
+python@CentOS@shared, ez_setup
+Boost::bind,function, thread, atomic, condition
+C++::signal, calloc
+mingw+boost@windows
+
+http://shop.oreilly.com/product/0636920030928.do
+http://bytes.com/topic/net/answers/520851-web-service-push-client
+http://www.cnblogs.com/piaoger/archive/2012/08/19/2646698.html
+http://blog.csdn.net/new_abc/article/details/7679661
+http://en.wikipedia.org/wiki/Server-sent_events
+
+2014-12-01
+一、懒！
+二、迷信！ 
+三、贪婪和恐惧！ 
+　　管理好股票前先管理好情绪，否则，容易被忽悠！
+　　总之给初入市的球友建议如下：
+　　1、多看少动，不懂不买。
+　　2、多学少跪，兼听则明。
+　　3、控制仓位，控制情绪。
+　　4、设止损，不半路上车。
+　　5、设止盈，不全仓到顶。
+
+
+为啥不用个mysql之类的管理数据阿
+譬如用tick合成分钟 分钟合成日线 或者其他的统计?
+
+张平 2014/12/2 9:12:11
+数据间不具有逻辑性，没必要
+
+2015-01-05
+2015-01-12
+
+诸位同事，上海陆家嘴环路营业部于今日起暂驻总部办公。新地址是：上海市虹口区东大名路358号20楼2013室，电话不变。请邮寄材料的时候使用以上地址，望周知。
+
+
+
+
+
+：超出涨跌停板的判断是在交易所处理，所以，CTP收到报单就新增一条记录，然后
+收到交易所的OnErrRtnOrder后， 修改委托表里的记录， 触发 OnRtnOrder。 OnErrRtnOrder的作用是：CTP在检查委托发现错误时，会给发出委托的投资者发出 OnRspInsertOrder，同时发出OnErrRtnOrder给相关的交易员，所以，作为投资者可以不关心 OnErrRtnOrder。  
+
+CANCEL_SLOW_CLOSE
+CANCEL_FAST_CLOSE
+CANCEL_FAST_OPEN
+CANCEL_SLOW_OPEN
+INSERT_FAST_CLOSE
+INSERT_FAST_OPEN
+INSERT_SLOW_OPEN
+INSERT_SLOW_CLOSE
+
+BOOST = /opt/boost_1_56_0
+
+status_md_signal  POSITIVE
+status_md_nearminusfar  NEAR_POSITIVE
+
+CThostFtdcInputOrderField* pInputOrder
+VolumeTraded
+volumeTraded
+
+b TraderSpi_logb.cpp:340
+b TraderSpi_logb.cpp:391
+p pORDER
+p pORDER->inputOrder
+p ORDER_REF
+b TraderSpi_logb.cpp:340
+
+b TraderSpi_logb.cpp:652
+b TraderSpi_logb.cpp:675
+b TraderSpi_logb.cpp:849
+b TraderSpi_logb.cpp:545
+
+我建议你最好自己去要帐号，因为要信息登记，客服也不是随便给帐号的。
+不是我不理解你，我帮你要帐号，我用我的信息登记，那也不方便啊
+海通股指仿真帐号 40009975   123456
+
+2015-01-27
+cifsimu @50 @52: occupied.
+_3b:
+loggingserver.cpp config.0 的圆形都在 _3a
+
+status_md_nearminusfar
+LIMIT_PRICE
+2015-01-28
+cifsimu @54: occupied.
+ if (nullptr == pORDER) {    
+pORDER = std::make_shared<CMyOrder>(); 
+}
+
+b loggingserver.cpp:25
+b common.h:65
+
+g++ -g -std=c++11 -o tt tt.cpp -I/opt/6 -llog4cplus
+m_MsgHandle[rspNewMarketData]  = boost::bind(&CMsgManager::OnNewMarketData,this, _1);
+
+// b
+pORDER = std::make_shared<CThostFtdcOrderField>();//**
+b TraderSpi_logc.cpp:75
+b TraderSpi_logc.cpp:584
+b TraderSpi_logc.cpp:644
+
+b TraderSpi_logc.cpp:286
+b TraderSpi_logc.cpp:1000
+b TraderSpi_logc.cpp:324
+//////////////////////////////
+b TraderSpi_logc.cpp:569
+b TraderSpi_logc.cpp:570
+b TraderSpi_logc.cpp:546
+b TraderSpi_logc.cpp:573
+b TraderSpi_logc.cpp:577
+b TraderSpi_logc.cpp:1041
+b TraderSpi_logc.cpp:590
+command 1
+p iter->second.OrderStatus
+p iter->second.ExchangeID
+p pOrder->OrderSysID
+p strlen(iter->second.OrderSysID)
+end
+
+command 2
+p iter->second.OrderStatus
+p dicOrder[t_order].OrderStatus
+end
+
+command 4 
+p strlen(iter->second.OrderSysID)
+end
+command 7
+p pORDER
+end
+
+
+p p3
+p BSessionPre
+p BSessionPre_Position
+p BTradeSignal_Run
+p nInstrumentQrying
+p nPositionChecking
+pvector INSTRUMENT_ID_ORIGIN
+
+p dicInstrument
+p dicPosition
+p dicOrder
+p dicOrderTwin
+p pORDER
+
+pvector POSITION
+p ACCOUNT
+p TRADE_SIGNAL
+
+p status_Posi
+p status_filling_order
+p status_offsetflag
+p status_md_signal
+p status_md_nearminusfar
+
+
+
+b 137
+b MdSpi.cpp:102
+b 138
+b 28
+
+b TraderSpi_logc.cpp:287
+b main_3d.cpp:123
+
+b TraderSpi.h:32
+b 120
+
+
+
+
+你这种不属于异常打卡，就是迟到了~，如果是忘记打卡或者是见客户了忘记打卡，可以让你们张总签字就可以。 
+
+b TraderSpi_logc.cpp:299
+b TraderSpi_logc.cpp:344
+
+b TraderSpi_logc.cpp:1043
+
+
+b util_0.h:65
+p nInstrumentCnt
+
+//资金管理
+尽管期货交易确实存在风险,但是一个防御型的交易者可以通过一系列清醒的决定以保证风险无法挤垮自己.
+1) ranking trading opportunities
+2) allocating trading capital among opportunities
+3) {price fluctuation ranges ==> 每隔合约许可的货币风险，风险资本} ==> 下单手数
+
+//valgrind对main_3d
+--2937--    object doesn't have a symbol table
+--2937--    object doesn't have a dynamic symbol table
+
+20150205
+ 
+如此就没法删除.con了吧
+个人-王烨(122742470) 17:00:19 
+删了可是添乱了
+个人-王烨(122742470) 17:00:31 
+可不能这样删，即使能删除也不要做
+个人-黄元一(1477033955) 17:01:37 
+自从删了.con，还没有遇到过onrtntrade没回报的时候
+ 
+@个人-王烨 王爷，记得你说过要删除 .con 文件，再启动程序，是吧
+
+个人-王烨(122742470) 17:04:22 
+初始化的时候删除，最好在没有Api对象Init的前
+个人-王烨(122742470) 17:04:26 
+我是这样做的
+一德-刘庆彪(848073050) 17:04:54 
+不删除会出现收不到回报么？
+个人-王烨(122742470) 17:05:11 
+从几个案例看，是会导致收不到回报的
+一德-刘庆彪(848073050) 17:05:11 
+还是其他的问题？
+个人—李国军(574314057) 17:05:14 
+就是用resume的才会出现
+个人-王烨(122742470) 17:05:24 
+但是收不到回报是不是就这一个原因，不一定
+个人—李国军(574314057) 17:05:28 
+quick的没遇到过
+个人-张楠(326163569) 17:05:31 
+出现4097的时候删除可以吗？
+个人-王烨(122742470) 17:05:31 
+不一定的
+个人-王烨(122742470) 17:05:34 
+quick也会
+一德-刘庆彪(848073050) 17:05:52 
+哦，高手 
+个人-王烨(122742470) 17:05:53 
+我觉得释放api对象再删是最稳妥的
+个人—李国军(574314057) 17:06:17 
+那就未知了，目前quick没遇到过。上期给的文档说的是resume才会去用con文件。
+个人-罗晨(9368425) 17:06:23 
+只要分用户存.con就好了，不一定要删除
+一德-刘庆彪(848073050) 17:06:35 
+那您说是在程序结束的时候，最后清除？@个人-王烨 
+个人-黄元一(1477033955) 17:06:36 
+不行
+个人-黄元一(1477033955) 17:06:41 
+我就是分的存
+个人-黄元一(1477033955) 17:06:50 
+但是有的时候会造成没回调
+个人-黄元一(1477033955) 17:07:25 
+我用的是restart
+一德-刘庆彪(848073050) 17:07:38 
+@个人-黄元一 分的存，还会导致没回调？
+个人-黄元一(1477033955) 17:08:18 
+是，不过只有在频度很高的开平仓时刻才会有问题，低频也没遇到过
+个人-王烨(122742470) 17:08:24 
+确实遇到过是分开存的，不存在覆盖，但是收不到回报了，结果删除了，重启，有了
+个人-罗晨(9368425) 17:08:47 
+那就删吧，理论上不会，我这边没碰到过
+个人-黄元一(1477033955) 17:09:41 
+而且夜盘开了之后，我怀疑更容易出问题，用restart，第二天早盘会重发夜盘的交易信息
+一德-刘庆彪(848073050) 17:10:17 
+@个人-黄元一 是一条？
+个人-黄元一(1477033955) 17:11:07 
+什么一条？
+一德-刘庆彪(848073050) 17:11:41 
+会重发很多条交易信息？
+Onion(34151659) 17:11:45 
+请问一下，我想找人写EXCEL 连上bloomberg做数据分析？？有没有人可以介绍一个？？
+个人-黄元一(1477033955) 17:12:03 
+几次成交发几次
+个人-谢仁(1606811882) 17:12:17 
+@个人-黄元一 请问前辈 出现4097 不release 会有什么问题啊？
+个人-张明 (576295618) 17:12:21 
+直接问彭波在线帮助即可
+一德-刘庆彪(848073050) 17:13:16 
+@个人-黄元一 哦哦，那也没什么影响哈
+一德-刘庆彪(848073050) 17:14:40 
+@个人-王烨  那王爷，到底应该是分着存，还是放一个地方，您觉得？还有如果删除了.con 会对CTP的API本身来说，有没有什么坏的影响?  倒是记得您说过，没敢删
+个人-罗晨(9368425) 17:15:32 
+如果每次都删除，resume的方式你怎么干
+Onion(34151659) 17:16:36 
+不是很难的东西，主要是我自己没空弄，宁可出钱
+个人-王烨(122742470) 17:16:45 
+@一德-刘庆彪 分开放是一定的
+个人-王烨(122742470) 17:16:58 
+即使删除也要分开放，否则盘中互相覆盖就会出问题了
+一德-刘庆彪(848073050) 17:17:05 
+哦哦，文档里是这么说的 @个人-王烨 
+一德-刘庆彪(848073050) 17:17:13 
+对
+个人-白德生(56857231) 17:18:29 
+请教一下，各位讨论的分开放是啥意思？分用户来存放流文件吗？
+个人-白德生(56857231) 17:19:39 
+做的是多账户交易？单账户交易需要分不？
+
+20150206
+find -name "#*#" | xargs rm
+20150211
+认购期权涨认沽期权跌 看多情绪高涨  
+期权价格波动剧烈:
+1)从期权基本功能,或者金融服务实体经济的角度看,上证50ETF主要功能还是对冲股指大幅波动.目前大多是一级人(持有stock下,卖call或买put,及行权),大多数应该是对冲现货风险.
+2)但是现实恰好相反,call暴涨put暴跌,这真的是车肚子的狗屁市场么?一个答案:做市商套利,保值参与者的交易量很少.
+3)3月到期的深度虚值期权涨幅最大,炒作明显---"大爷就是钱多,愿意怎么玩就怎么玩",实际上"大爷"并不傻,有点像老庄复活,但是今天的市场还买他们的单么?????
+4)期指受齐全上市提振.  参与期权的券商+通缩阴影下宽松政策的期待?易淫????
+5)笔者认为:社会融资成本==>房地产行业回报率。关键是解决：融资难，融资贵。
+RMK：融资的本质是对未来的预期，是信用。估计不是经济手段能解决的。Olson，《独裁与民主》。
+
+
+
+
+rmk:固然市场仍不成熟,但是迈出了第一步,可以了.
+
+What are you developing for?
+You could write another small python scripts, which calls your script.
+os.system("python yours.py --param nicde")
+
+净资本约束松绑预期
+利率下行背景
+“大经纪”业务模式 财富管理
+资管业务要逐步建立“大资管”盈利模式，加快平台建设，服务公司各业务部门，向综合金融服务转型
+
+净资产收益率
+注册用户超过数百万；手机证券交易量占比达到25%万； 开户耗时几分钟左右
+量化等新兴业务在技术、策略、交易、风控等各个环节均比较薄弱。较大而散.
+
+
+Realised bipower variation also provides a new asymptotically unbiased, model free econometric estimator of integrated variance in stochastic volatility (SV) models. This estimator is robust to the presence of jumps.
+
+
+主要实证结果显示,实现波动率模型以及加入附加解释变量的扩展随机波动模型是预测精度最高的波动模型,但在学术界和实务界流行的GARCH及其扩展模型对我国A股市场波动的预测能力较差。
+文章得出以下几点结论:首先,中国股市的跳跃存在明显的聚类特征(特别是2008年左右),已实现方差所代表的市场整体风险对收益率并没有明显的解释效力;其次,跳跃成分对收益率有稳健的预测作用,跳跃波动与收益率负相关;最后,跳跃特别是负向跳跃更为准确地反映波动的非对称性,并可以提高对波动的预测效果。
+结果表明:连续波动是已实现波动率的主要构成部分,其均值结构突变特征与已实现波动率基本一致;连续波动自身的周效应及收益率的周规模效应对连续波动影响显著;连续波动对跳跃波动的周效应影响最大;跳跃等待时间间隔表现出持久性特征。
+
+
+dazhihui FROM Chenwei
+帐号：wgtrera091   密码：rwzvoldz
+
+20150408
+许多研究表明，在短期内，相较于基本面因素，市场情绪能更好的解释资产价格的波动与变化，特别是对于那些难以估价，或套利成本高的股票（如小盘股、非盈利股、新股以及高成长股，
+尤其是市场追捧的热门股），受投资者情绪的影响最为明显。因此，对投资者情绪指标的观测有着非常重要的意义，并将成为我们股市周期体系的短周期观察变量。
+
+20150410
+晨纪:
+(博弈大师)ifspread之近月减去远月,于4月9日大幅升高。观主力、近月和现货，怀疑HS300涨而IF似乎跟不上：莫非现货的调整情绪发泄在期货上面？？？不必卖出股票即可兑现收益。
+深思似乎不妥。应该是：近月在现货带领下上涨，而远月已经涨不动了——不确定性——市场对下个月的信心其实都木有，上涨的信心 。体现在远月、近月和HS300的多头排列。（3）>（２）
+是因为短期有调整动力，或兑现前期股票收益；（２）＞（１）似乎因为对下个月的预期充满不确定，市场的ａｇｇｒｅｇａｔｉｏｎ
+
+晚记：上午现货高于期货，如晨记。下午期货发力，同时近远月基差缩小，但是2点50分后基差再次扩大，恢复至正常水平。
+
+p pCenv->orderParams
+  p pCenv->order
+  pvector pCenv->vOrder
+  p pCenv->bTradeFinished
+  p pCenv->BOrderTwinSet
+  $17 = false
+  p pCenv->dicOrderFake
+
+  p pCenv->dicOrderTwinFake
+
+
+  pvector pCenv->vTrade
+  pstring pCenv->tradingDay
+  p pCenv->dicCharOrderStatus
+  p pCenv->isNewer
+
+
+  p pCenv->m_trinityEqual
+
+
+  p pCenv->MAX_VOL
+  p pCenv->MAX_MONEY
+  
+  p pCenv->dicInstrument
+  p pCenv->orderExtended
+  p pCenv->dicOrder
+  p pCenv->dicOrderTwin
+  p pCenv->orderTwin_
+  p pCenv->position
+  p pCenv->account
+  
+
+公司已为2015年4月1日前入职的总部人员（含试用，不含投行）购买了团体交通意外伤害保险，即日起，将不再为此类人员报销交通意外伤害保险费。投行员工保险另行购买。
+民航　４０　列车２０　　汽车　５
+保险金给付条件：乘坐上述客运公共交通工具期间遭受意外伤害导致身故或残疾。	
+
+2015-04-21
+OpenRangeBreak
+AG:
+1)robust:
+胜率很稳定的分布于20~30%
+都是盈利,但是MAR差别较大
+详细请见: E:\strategy\automatic\金字塔\窗体与模块\module7\20150421
+2)
+对p_a和p_c不敏感,甚至迟钝,但是对openrange很敏感
+
+// 20150429
+// KDJ
+KDJ又叫随机指标，是由乔治·蓝恩博士（George Lane）最早提出的，是一种相当新颖、实用的技术分析指标，它起先用于期货市场的分析，后被广泛用于股市的中短期趋势分析，是期货和股票市场上最常用的技术分析工具。
+它是波动于0—100之间的超买超卖指标，由K、D、J三条曲线组成，在设计中综合了动量指标、强弱指数和移动平均线的一些优点，在计算过程中主要研究高低价位与收盘价的关系，即通过计算当日或最近数日的最高价、最低价及收盘价等价格波动的真实波幅，充分考虑了价格波动的随机振幅和中短期波动的测算，使其短期测市功能比移动平均线更准确有效，在市场短期超买超卖方面，又比相对强弱指标RSI敏感，
+总之KDJ是一个随机波动的概念，反映了价格走势的强弱和波段的趋势，对于把握中短期的行情走势十分敏感。
+
+
+

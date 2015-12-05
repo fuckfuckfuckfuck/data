@@ -1,0 +1,899 @@
+cmd	
+cd C:\Program Files\MySQL\MySQL Server 5.6\bin\
+
+mysqld --defaults-file="E:\ProgramData\MySQL\MySQL Server 5.6\my.ini"
+path=%path%;C:\\Program Files\\PuTTY;D:\\bin\\pyproject\\;D:\\Documents\\Downloads\\emacs-24.3\\bin\\ 
+path=%path%;C:\\Program Files\\MySQL\\MySQL Server 5.6\\bin\\
+
+.headers on
+.mode column
+.timer on
+.nullvalue NULL
+.echo on
+      
+-rw-rw-r-- 1 dell dell 33099545 Apr 21 16:54 20150421.7z
+	   -rw-rw-r-- 1 dell dell 26604617 Apr 21 16:49 20150420.7z
+	   -rw-rw-r-- 1 dell dell 33473465 Apr 20 16:21 20150417.7z
+	   -rw-rw-r-- 1 dell dell 31357481 Apr 17 08:25 20150416.7z
+	   -rw-rw-r-- 1 dell dell 30635481 Apr 16 15:33 20150415.7z
+	   -rw-rw-r-- 1 dell dell 30612825 Apr 16 15:27 20150414.7z	
+	   
+	   -rw-rw-r-- 1 dell dell 27564009 Apr 14 08:40 20150413.7z
+	   -rw-rw-r-- 1 dell dell 22993049 Apr 14 08:36 20150410.7z
+
+	   -rw-rw-r-- 1 dell dell 21440089 Apr 10 09:18 20150409.7z
+	   -rw-rw-r-- 1 dell dell 21230137 Apr 10 09:15 20150408.7z
+	   -rw-rw-r-- 1 dell dell 13356665 Apr  7 23:49 20150407.7z
+	   -rw-rw-r-- 1 dell dell  5836217 Apr  7 23:47 20150406.7z
+
+	   -rw-rw-r-- 1 dell dell 22524313 Apr  2 08:54 20150402.7z
+	   -rw-rw-r-- 1 dell dell 22524313 Apr  2 08:54 20150401.7z
+	   -rw-rw-r-- 1 dell dell 14024736 Apr  1 16:58 20150331.7z
+	   -rw-rw-r-- 1 dell dell 22549481 Mar 31 16:54 20150330.7z
+	   -rw-rw-r-- 1 dell dell 23353065 Mar 30 15:19 20150327.7z
+	   -rw-rw-r-- 1 dell dell 22414345 Mar 30 15:15 20150326.7z
+	   -rw-rw-r-- 1 dell dell 22099273 Mar 26 17:01 20150325.7z
+	   -rw-rw-r-- 1 dell dell 25075993 Mar 25 05:06 20150324.7z
+	   -rw-rw-r-- 1 dell dell 25725321 Mar 24 00:00 20150323.7z
+	   -rw-rw-r-- 1 dell dell 21433305 Mar 20 20:55 20150320.7z
+	   -rw-rw-r-- 1 dell dell 22737529 Mar 19 22:24 20150319.7z
+	   -rw-rw-r-- 1 dell dell 24649257 Mar 19 22:20 20150318.7z
+	   -rw-rw-r-- 1 dell dell 20364761 Mar 18 16:57 20150317.7z
+	   -rw-rw-r-- 1 dell dell 13585961 Mar 18 16:54 20150316.7z
+	   -rw-rw-r-- 1 dell dell  7667273 Mar 16 16:03 20150316A.7z
+	   -rw-rw-r-- 1 dell dell 13139945 Mar 16 16:02 20150313.7z
+	   -rw-rw-r-- 1 dell dell 22694857 Mar 16 15:59 20150312.7z
+	   -rw-rw-r-- 1 dell dell 21593513 Mar 16 15:56 20150311.7z
+
+	   -rw-rw-r-- 1 dell dell 21251945 Mar 11 16:53 20150310.7z
+	   -rw-rw-r-- 1 dell dell 10262329 Mar 11 16:50 20150309_A.7z
+	   -rw-rw-r-- 1 dell dell 16475801 Mar 11 16:48 20150309.7z
+	   -rw-rw-r-- 1 dell dell 21229017 Mar 11 16:45 20150306.7z
+
+	   -rw-rw-r-- 1 dell dell 24129385 Mar  6 09:05 20150305.7z
+	   -rw-rw-r-- 1 dell dell 26412761 Mar  6 09:01 20150304.7z
+	   -rw-rw-r-- 1 dell dell 14571321 Mar  6 08:57 20150303.7z
+	   -rw-rw-r-- 1 dell dell  8714649 Mar  3 17:02 20150302.7z
+
+pscp -v D:\bin\pyproject\ctpdata\ctpdata.7z dell@218.244.141.201:/home/dell/
+pscp -v D:\Documents\BK\ali.7z dell@218.244.141.201:/home/dell/data 
+pscp -v D:\bin\pyproject\ctpdata\scanCtp.py dell@218.244.141.201:/home/dell/bin/pyproject/ctpdata 
+pscp -v dell@218.244.141.201:/alidata/ctp/test7/7d/20150427.7z E:\\data\\alidata\\ctp\\test7\\7d  
+pscp -v D:\bin\pyproject\ctpdata\0.txt dell@218.244.141.201:/home/dell/data   
+pscp -v D:\bin\pyproject\ctpdata\scanData.py dell@218.244.141.201:/home/dell/data/scanData.py  
+pscp -v dell@218.244.141.201:/alidata/ctp/test7/7d/20150330.7z E:\\data\\alidata\\ctp\\test7\\7d  
+pscp -v bb.txt dell@218.244.141.201:/home/dell/bin/pyproject/20150401boll			  
+pscp -v dell@218.244.141.201:/alidata/ctp/test7/7d/20150319.7z E:\\data\\alidata\\ctp\\test7\\7d 
+pscp -v dell@218.244.141.201:/alidata/ctp/test7/7d/20150302.7z E:\\data\\alidata\\ctp\\test7\\7d 
+pscp -v dell@218.244.141.201:/alidata/ctp/test7/7d/20150212.7z E:\\data\\alidata\\ctp\\test7\\7d 
+pscp -v dell@218.244.141.201:/alidata/ctp/test7/7d/20150209.7z E:\\data\\alidata\\ctp\\test7\\7d 
+pscp -v dell@218.244.141.201:/alidata/ctp/test7/7e/20150120.7z E:\\data\\alidata\\ctp\\test7\\7e 
+pscp -v D:\bin\ctp\d.tar.gz dell@218.244.141.201:/home/dell/bin/ctp/test3/test5/b/td_only/7d/td/_3c 
+pscp -v dell@218.244.141.201:/alidata/ctp/test7/7d/20150205.7z E:\\data\\alidata\\ctp\\test7\\7d 
+pscp -v dell@218.244.141.201:/alidata/ctp/test7/7d/20150119A.7z E:\\data\\alidata\\ctp\\test7\\7d 
+pscp -v dell@218.244.141.201:/home/dell/bin/pyproject/ctpdata/test20150119.tar E:\\data\\alidata\\ctp\\test7\\7d 
+pscp -v dell@218.244.141.201:/alidata/ctp/test7/7d/20150113.7z E:\\data\\alidata\\ctp\\test7\\7d 
+pscp -v dell@218.244.141.201:/alidata/ctp/test7/7d/20150112A.7z E:\\data\\alidata\\ctp\\test7\\7d 
+pscp -v dell@218.244.141.201:/alidata/ctp/test7/7d/20150112.7z E:\\data\\alidata\\ctp\\test7\\7d 
+pscp -v dell@218.244.141.201:/alidata/ctp/test7/7d/20150109A.7z E:\\data\\alidata\\ctp\\test7\\7d 
+pscp -v dell@218.244.141.201:/alidata/ctp/test7/7d/20150109.7z E:\\data\\alidata\\ctp\\test7\\7d 
+pscp -v dell@218.244.141.201:/alidata/ctp/test7/7d/20150108A.7z E:\\data\\alidata\\ctp\\test7\\7d 
+pscp -v dell@218.244.141.201:/alidata/ctp/test7/7d/20150108.7z E:\\data\\alidata\\ctp\\test7\\7d 
+pscp -v dell@218.244.141.201:/alidata/ctp/test7/7d/20150107.7z E:\\data\\alidata\\ctp\\test7\\7d 
+pscp -v dell@218.244.141.201:/alidata/ctp/test7/7d/2014_2015.7z E:\\data\\alidata\\ctp\\test7\\7d 
+pscp -v dell@218.244.141.201:/alidata/ctp/20150106.7z E:\\data\\alidata\\ctp\\
+pscp -v dell@218.244.141.201:/alidata/ctp/20150105.7z E:\\data\\alidata\\ctp\\ 
+pscp -v dell@218.244.141.201:/alidata/ctp/test7/Test.logs.7z E:\\data\\alidata\\ctp\\test7 
+pscp -v eapis.7z dell@218.244.141.201:/home/dell/bin/ctp/test3/test5/b/td_only/
+pscp -v dell@218.244.141.201:/home/dell/bin/ctp/test3/test5/b/td_only/Test.log . 
+pscp -v dell@218.244.141.201:/home/dell/bin/pyproject/ctpdata/test20150105.tar . 
+pscp -v D:\bin\ali\test3\test4.rar dellsz@120.24.58.4:/home/dellsz/bin/ 
+pscp -v dellsz@120.24.58.4:/home/dellsz/bin/ctp/logmd/20141216.7z . 
+scp -v dellsz@120.24.58.4:/home/dellsz/bin/ctp/logtd/Makefile . 
+scp -v dell@218.244.141.201:/home/dell/bin/ctp/test3/test5/3.txt .
+scp -v dell@218.244.141.201:/home/dell/bin/mon*/mongoose.*  . 
+scp -v dell@218.244.141.201:/home/dell/bin/ctp/test3/t34.tar . 
+scp -v dell@218.244.141.201:/home/dell/bin/ctp/test7/7d/tmp.tar E:\\data\\alidata\\ctp\\20141215.tar 
+scp -v dell@218.244.141.201:/home/dell/bin/ctp/test3/test5/3.txt .
+pscp -v dellsz@120.24.58.4:/home/dellsz/bin/mon*/mongoose.*  . 
+pscp -v dellsz@120.24.58.4:/home/dellsz/bin/ctp/logmd/201412*.7z E:\\data\\alidata 
+pscp -v D:\Documents\Downloads\data_2.0_20100401_20130426.7z dellsz@120.24.58.4:/home/dellsz/data
+pscp -v E:\data\alidata\ctp\ctp.rar dellsz@120.24.58.4:/home/dellsz/Downloads/
+pscp -v dell@218.244.141.201:/alidata/ctp/test7/7d/2014_2015.7z E:\\data\\alidata\\ctp\\ 
+pscp -v dell@218.244.141.201:/alidata/ctp/20141209.7z E:\\data\\alidata\\ctp\\ 
+pscp -v dell@218.244.141.201:/home/dell/bin/pyproject/ifArb_1.py . 
+pscp -v dell@218.244.141.201:/home/dell/Downloads/6.2.0_201312041840_apitraderapi_linux64/test6/tmp0.7z E:\\data\\alidata\\ctp\\ 
+pscp -v dell@218.244.141.201:/home/dell/Downloads/6.2.0_201312041840_apitraderapi_linux64/test6/tmp1105/test.cpp E:\\data\\alidata\\ctp\\ 
+pscp -v dell@218.244.141.201:/home/dell/Downloads/6.2.0_201312041840_apitraderapi_linux64/test6/tmp/test.txt E:\\data\\alidata\\ctp\\ 
+pscp -v dell@218.244.141.201:/var/lib/tomcat6/webapps/ROOT/WEB-INF/cgi/test2.cpp E:\\data\\alidata\\tomcat\\ 
+
+/var/lib/tomcat6/webapps/ROOT/WEB-INF/cgi/test2.cpp tomcat\\ 
+pscp -v E:\\data\\fromPing\\data_2_0.db dellsz@120.24.58.4:/home/dellsz/data
+
+.headers ON
+.nullvalue "NULLVALUE"
+.timer ON
+.mode column
+
+
+
+select count(*) from v1004_day ;
+select * from v1004_min where (high=low and low=open and open=close) or vol=0 or oi=0;
+
+.output t0.txt
+.tables
+.output std
+create table tname (name TEXT);
+
+.import t1.txt tname
+
+create table trade_min (
+symbol TEXT NOT NULL,
+ticktime DateTime NOT NULL,
+high real not null,
+low real not null,
+open real not null,
+close real not null,
+vol real not null,
+oi real not null,
+avg real not null,
+primary key (symbol ASC, ticktime asc)
+);
+
+create unique index idx_min on trade_min (symbol ASC, ticktime ASC);
+
+select distinct 
+case when length(name)==9 then substr(name,1,5) 
+when length(name)==10 then substr(name,1,6) 
+end as subname from tname where substr(name,1,2)="al";
+
+2014-06-24
+
+CREATE TABLE IF NOT EXISTS ctp ( 
+id INT NOT NULL, 
+thread BIGINT NOT NULL, 
+loglevel VARCHAR(5) NOT NULL, 
+
+/*
+loglevel enum("DEBUG","WARN") NOT NULL,
+*/
+
+TradingDay DATE NOT NULL, 
+InstrumentID VARCHAR(31) NOT NULL, 
+ExchangeID VARCHAR(9),	 
+ExchangeInstID VARCHAR(31), 
+LastPrice DOUBLE NOT NULL, 
+PreSettlementPrice DOUBLE, 
+PreClosePrice DOUBLE, 
+PreOpenInterest INT, 
+OpenPrice DOUBLE, 
+HighestPrice DOUBLE, 
+LowestPrice DOUBLE, 
+Volume INT, 
+Turnover DOUBLE, 
+OpenInterest INT, 
+ClosePrice DOUBLE, 
+SettlementPrice DOUBLE, 
+UpperLimitPrice DOUBLE, 
+LowerLimitPrice DOUBLE, 
+PreDelta DOUBLE, 
+CurrDelta DOUBLE, 
+UpdateTime TIME, 
+UpdateMillisec INT, 
+BidPrice1 DOUBLE, 
+BidVolume1 INT, 
+AskPrice1 DOUBLE, 
+AskVolume1 INT, 
+AveragePrice DOUBLE, 
+seq_num INT NOT NULL)
+//正式 ENGINE=InnoDB DEFAULT CHARSET=utf8 |
+# TradingDay VARCHAR(9) NOT NULL,
+# loglevel VARCHAR(7) NOT NULL, 
+
+
+7342659 [140689204025088] DEBUG test <> - 20140623 y1409   6838 6730 6740 345804 6740 6858 6736 184828 1.25759e+10 308848 1.79769e+308 1.79769e+308 6998 6462 14:58:52 \
+0 6838 344 6840 159 68041 402374
+
+mysql -hrdsryfjb2vqrni2.mysql.rds.aliyuncs.com -P3306 -ubotel -p
+
+2014-07-01
+sudo mysqld --verbose --help
+Please run mysql_upgrade to create it
+Default options are read from the following files in the given order:
+/etc/my.cnf /etc/mysql/my.cnf /usr/etc/my.cnf ~/.my.cnf
+
+//转向sqlite
+
+ 
+"
+
+INSERT INTO ctp  (id,thread, loglevel, TradingDay, InstrumentID, LastPrice, PreSettlementPrice , PreClosePrice, PreOpenInterest, OpenPrice, HighestPrice, LowestPrice, Volume, Turnover, OpenInterest, ClosePrice, SettlementPrice, UpperLimitPrice, LowerLimitPrice, UpdateTime, UpdateMillisec, BidPrice1, BidVolume1, AskPrice1, AskVolume1, AveragePrice, seq_num) VALUES (18246655,139707331954432,'DEBUG',20140627,'au1408',  263.25, 264.05, 263.8, 212, 262.45, 263.25, 262.45, 16, 4.2072e+06, 220, 1.79769e+308,1.79769e+308, 277.25, 250, 250.8, '02:00:15', 0, 262.75, 2, 263.3, 1, 262950, 255957)
+
+2014-07-14
+CREATE UNIQUE INDEX idx0 ON ctp (id,TradingDay,InstrumentID,UpdateTime,UpdateMillisec)   
+
+CREATE TABLE IF NOT EXISTS tmp 
+( 
+id INT NOT NULL, 
+thread BIGINT NOT NULL, 
+loglevel VARCHAR(5) NOT NULL, 
+TradingDay DATE NOT NULL, 
+InstrumentID VARCHAR(31) NOT NULL, 
+LastPrice DOUBLE NOT NULL, 
+PreSettlementPrice DOUBLE, 
+PreClosePrice DOUBLE, 
+PreOpenInterest INT, 
+OpenPrice DOUBLE, 
+HighestPrice DOUBLE, 
+LowestPrice DOUBLE, 
+Volume INT, s
+Turnover DOUBLE, 
+OpenInterest INT, 
+ClosePrice DOUBLE, 
+SettlementPrice DOUBLE, 
+UpperLimitPrice DOUBLE, 
+LowerLimitPrice DOUBLE, 
+UpdateTime TIME, 
+UpdateMillisec INT, 
+BidPrice1 DOUBLE, 
+BidVolume1 INT, 
+AskPrice1 DOUBLE, 
+AskVolume1 INT, 
+AveragePrice DOUBLE, 
+seq_num INT NOT NULL
+)
+
+create index idx0 on tmp (instrumentid)
+create index idx1 on tmp (updatetime,updatemillisec)
+
+insert into tmp (
+id ,
+thread , 
+loglevel , 
+TradingDay ,
+InstrumentID ,
+LastPrice ,
+PreSettlementPrice ,
+PreClosePrice ,
+PreOpenInterest ,
+OpenPrice ,
+HighestPrice ,
+LowestPrice ,
+Volume ,
+Turnover ,
+OpenInterest ,
+ClosePrice ,
+SettlementPrice ,
+UpperLimitPrice ,
+LowerLimitPrice ,
+UpdateTime ,
+UpdateMillisec ,
+BidPrice1 ,
+BidVolume1 ,
+AskPrice1 ,
+AskVolume1 ,
+AveragePrice,
+seq_num )
+select 
+id ,
+thread , 
+loglevel , 
+TradingDay ,
+InstrumentID ,
+LastPrice ,
+PreSettlementPrice ,
+PreClosePrice ,
+PreOpenInterest ,
+OpenPrice ,
+HighestPrice ,
+LowestPrice ,
+Volume ,
+Turnover ,
+OpenInterest ,
+ClosePrice ,
+SettlementPrice ,
+UpperLimitPrice ,
+LowerLimitPrice ,
+UpdateTime ,
+UpdateMillisec ,
+BidPrice1 ,
+BidVolume1 ,
+AskPrice1 ,
+AskVolume1 ,
+AveragePrice,
+seq_num 
+from ctp
+where tradingday = 20140728 
+and (updatetime <= "02:30:00" or (updatetime >= "09:00:00" and updatetime <="15:15:00") or updatetime >= "20:59:00")
+
+#################################################################
+select left(updatetime,5) as dt, count(*) from tmp where (left(updatetime,5) > "02:30" and left(updatetime,5) < "07:33") group by dt;
+select * from tmp where (left(updatetime,5) > "02:30" and left(updatetime,5) < "07:33") group by left(updatetime,5); 
+select * from tmp where (left(updatetime,5) == "07:09") 
+select * from tmp where loglevel != "DEBUG"
+
+select count(*) from ctp where tradingday = 20140710 and (updatetime <= "02:30:00" or (updatetime >= "09:00:00" and updatetime <="15:15:00") or updatetime > "20:59:00")
+#################################################################
+张平 2014/7/18 9:14:02
+分析行情，不需要关联其他表
+单表查询，用?Sql查询，想不出使用的必要性
+#################################################################
+## local:mysql
+create index idx0 on ctp (tradingday)
+create index idx1 on ctp (instrumentid)
+create index idx2 on ctp (updatetime,updatemillisec)
+#################################################################
+// time stat
+select left(updatetime,4) as t count(*) from ctp group by t
+ 
+select instrumentid,lastprice,openprice,volume,turnover,openinterest,closeprice,settlementprice,updatetime + INTERVAL updatemillisec*1000 MICROSECOND as dt,bidprice1,bidvolume1,askprice1,askvolume1 from ctp where tradingday=20140721 limit 10   
+
+select instrumentid,count(*) from ctp where tradingday=20140721 group by instrumentid ## cmp al1410 zn1410
+// dump 20140728 into tmp
+// 
+select count(*) from tmp where instrumentid='al1410' 
+select count(*) from tmp where instrumentid='zn1410' 
+
+# begin…end之间是存储过程的主体定义
+# mysql的分界符是分号（；）
+
+调用存储过程的方法是：
+# CALL加上过程名以及一个括号
+# 例如调用上面定义的存储过程
+CALL productpricing();
+# 哪怕是不用传递参数，存储过程名字后面的括号“（）”也是必须的
+
+删除存储过程的方法是：
+DROP PROCUDURE productpricing;
+
+创建带参数的存储过程：
+CREATE PROCUDURE productpricing(
+
+OUT p1 DECIMAL(8,2),
+
+OUT ph DECIMAL(8,2),
+
+OUT pa DECIMAL(8,2)
+)
+
+BEGIN
+SELECT Min(prod_price) INTO pl FROM products;
+SELECT Max(prod_price) INTO ph FROM products;
+SELECT Avg(prod_price) INTO pa FROM products;
+END;
+# DECIMAL用于指定参数的数据类型
+# OUT用于表明此值是用于从存储过程里输出的
+# MySQL支持 OUT, IN, INOUT
+
+调用带参数的存储过程：
+CALL productpricing(@pricelow,
+@pricehigh,
+@priceaverage);
+# 所有的参数必须以@开头
+# 要想获取@priceaverage的值，用以下语句
+SELECT @priceaverage;
+# 获取三个的值，用以下语句
+SELECT @pricehigh, @pricelow, @priceaverage;
+另一个带IN和OUT参数的存储过程：
+CREATE PROCEDURE ordertotal(
+IN onumber INT,
+OUT ototal DECIMAL(8,2)
+)
+BEGIN
+SELECT Sum(item_price*quantity)
+FROM orderitems
+WHERE order_num = onumber
+INTO ototal;
+END;
+CALL ordertotal(20005, @total);
+SELECT @total;
+
+添加一个完整的例子:(这是一个自定义分页的存储过程)
+DELIMITER $$
+DROP PROCEDURE IF EXISTS `dbcall`.`get_page`$$
+CREATE DEFINER=`root`@`localhost` PROCEDURE `get_page`(
+
+tableName varchar(100),
+
+fieldsNames varchar(100),
+
+pageIndex int,
+
+pageSize int,
+
+sortName varchar(500),
+
+strWhere varchar(500)
+)
+BEGIN
+DECLARE fieldlist varchar(200);
+if fieldsNames=''||fieldsNames=null THEN
+set fieldlist='*';
+else
+set fieldlist=fieldsNames;
+end if;
+
+if strWhere=''||strWhere=null then
+if sortName=''||sortName=null then
+set @strSQL=concat('SELECT ',fieldlist,' FROM ',tableName,' LIMIT ',(pageIndex-1)*pageSize,',',pageSize);
+else
+set @strSQL=concat('SELECT ',fieldlist,' FROM ',tableName,' ORDER BY ',sortName,' LIMIT ',(pageIndex-1)*pageSize,',',pageSize);
+end if;
+else
+if sortName=''||sortName=null then
+set @strSQL=concat('SELECT ',fieldlist,' FROM ',tableName,' WHERE ',strWhere,' LIMIT ',(pageIndex-1)*pageSize,',',pageSize);
+else
+set @strSQL=concat('SELECT ',fieldlist,' FROM ',tableName,' WHERE ',strWhere,' ORDER BY ',sortName,' LIMIT ',(pageIndex-1)*pageSize,',',pageSize);
+end if;
+end if;
+PREPARE stmt1 FROM @strSQL;
+EXECUTE stmt1;
+DEALLOCATE PREPARE stmt1;
+END$$
+DELIMITER ;
+
+
+http://blog.sina.com.cn/s/blog_71f4cdbe0100yut4.html  
+
+每一天的18点至19点之间，会把当日全部合约的当日收盘价传一遍，当然，日期则是下一个交易日的，即9点开盘时的日期。
+
+FAILTED TO SPARSED:
+
+
+2014-09-25
+## create index idx0 on t20140924 (tradingday)
+create index idx1 on t20140924 (instrumentid)
+create index idx2 on t20140924 (updatetime,updatemillisec)
+## indexation
+SELECT LEFT(updatetime,4) t,count(*) FROM t20140924 GROUP BY t ORDER BY t ASC
+
+SET @TIME = "07:1";
+SET @TBL = t20140924;
+## 1st log
+SELECT id,thread,loglevel,updatetime,instrumentid,seq_num,updatemillisec FROM t20140924 
+WHERE left(updatetime,4)=@TIME ORDER BY instrumentid ASC  
+ 
+## 2nd price,vol,oint
+SELECT updatetime,instrumentid,lastprice,volume,openinterest FROM t20140924 
+WHERE left(updatetime,5)=@TIME ORDER BY instrumentid ASC 
+
+## 3rd priceS
+SELECT updatetime,instrumentid,lastprice,openprice,highestprice,LowestPrice,upperlimitprice,lowerlimitprice,AveragePrice FROM t20140924 
+WHERE left(updatetime,4)=@TIME ORDER BY instrumentid ASC
+
+## 4th pq books
+SELECT updatetime,updatemillisec,instrumentid,lastprice,volume,openinterest,BidPrice1,BidVolume1,AskPrice1,AskVolume1,AveragePrice FROM t20140924 
+WHERE left(updatetime,4)=@TIME ORDER BY@TBLntid ASC
+
+SELECT updatetime,updatemillisec,instrumentid,lastprice,volume,BidPrice1,BidVolume1,AskPrice1,AskVolume1 FROM t20140924 
+WHERE instrumentid = "TA504" ORDER BY seq_num limit 100 
+
+
+## rmk on t20140924:
+15:3 exist 15 records. Triple for IF1410,IF1412,IF1503,TF1412,TF1503.
+02:3 exist 50 records. All AG,AU.
+07:1 exist 5 records. All IF,TF.
+07:3 exist 371 records. Seems to be all mkts, some repeations.
+08:5 exist 135 records. All mkts. 
+11:3 exist 135 records.
+18:3 exist 279 records. 
+19:0 exist 87 records.
+19:1 exist 217 records.
+20:5 exist 76 records.
+14:59. Some CZCE have settlementprice and closeprice.
+
+## stlmnt prc time:
+IF TF 15:30
+DCE 15:00:32
+SHFE 15:00:00
+CZCE 14:59:30
+
+
+select * from (select instrumentid,min(updatetime) as t,max(volume) as v,min(settlementprice) as ps from t20140924 where updatetime <= "15:50" and settlementprice < 1.0e308 group by instrumentid ) as t where t.v >0 order by t.t DESC
+
+select * from (select instrumentid,min(updatetime) as t,max(volume) as v,min(closeprice) as ps from t20140924 where updatetime <= "15:50" and closeprice < 1.0e308 group by instrumentid ) as t where t.v >0 order by t.t DESC
+
+select updatetime,instrumentid,settlementprice,closeprice FROM t20140924 where closeprice <= 1.0e308 and settlementprice <= 1.0e308 group by instrumentid order by NULL 
+
+## redundant records
+SELECT id,thread,loglevel,updatetime,instrumentid,seq_num,updatemillisec FROM t20140924 a where (a.instrumentid,a.updatetime,a.updatemillisec) in (select instrumentid,updatetime,updatemillisec from t20140924 group by instrumentid,updatetime,updatemillisec having count(*)>1)
+
+## only CEFFEX SHFE have non zero updatemillisec.
+
+mysql中如何计算日期之差:
+select unix_timestamp(date)-unix_timestamp(end) as '两者相差的秒数' from '表名'；
+
+-------------------------------------------------------------------------------------
+CREATETABLE`users`(
+`id`int(10) NOT NULL AUTO_INCREMENT,
+`name`char(50) NOT NULL,
+PRIMARYKEY(`id`)
+)
+delete from users where id in (select*from (select min(id) from users group by name having count(name)>1));
+-------------------------------------------------------------------------------------
+
+#select left(updatetime,5) as t,count(*) from ctp where tradingday =20140818 group by t order by t;
+ 
+-- select * from ctp where tradingday =20140818;
+-- SET @TBL = t20140924;
+-- select * from t20140924 limit 1;
+-- SELECT LEFT(updatetime,4) t,count(*) FROM t20140924 GROUP BY t ORDER BY t ASC;
+-- create index idx1 on t20140924 (instrumentid);
+-- SELECT id,thread,loglevel,updatetime,instrumentid,seq_num,updatemillisec FROM t20140924 
+-- SELECT updatetime,instrumentid,lastprice,openprice,highestprice,LowestPrice,upperlimitprice,lowerlimitprice,AveragePrice FROM t20140924
+-- SELECT updatetime,updatemillisec,instrumentid,lastprice,volume,openinterest,BidPrice1,BidVolume1,AskPrice1,AskVolume1,AveragePrice FROM t20140924 
+-- SELECT id,thread,loglevel,updatetime,instrumentid,seq_num,updatemillisec FROM t20140924 a where (a.instrumentid,a.updatetime,a.updatemillisec) in (select instrumentid,updatetime,updatemillisec from t20140924 group by instrumentid,updatetime,updatemillisec having count(*)>1)
+-- select id,updatetime,UpdateMillisec from t20140924 where instrumentid="CF411" and updatemillisec = 0 
+-- select distinct instrumentid from t20140924 where updatemillisec != 0 
+-- select distinct instrumentid from t20140924 
+-- select distinct InstrumentID from t20140924 where left(instrumentid,2)="IF"
+create temporary table tmp (InstrumentID VARCHAR(31) NOT NULL, );
+select count(*) from t20140924 where left(instrumentid,2)="IF" group by instrumentid,
+
+2014-10-27
+INSERT INTO `sample` VALUES ('2014-09-22','cu1505',46800,48060,48000,3948,48000,48020,46790,1008,237694000,4482,1.79769e308,1.79769e308,50460,45650,'14:57:27',500,46760,2,46790,3,235807,1768184)
+INSERT INTO `sample` VALUES ('2014-09-22','IF1410',2383.4,2439.6,2441.4,133563,2438.2,2438.6,2375.6,777093,559643000000,143895,1.79769e308,1.79769e308,2683.4,2195.8,'14:58:15',600,2383.2,16,2383.4,88,720174,1773488)
+
+2014-10-27
+show create table ctp;
+
+// $TOMCAT ctpsample.db
+CREATE TABLE sample
+(
+TradingDay INT NOT NULL,
+InstrumentID TEXT NOT NULL,
+LastPrice DOUBLE NOT NULL,
+PreSettlementPrice DOUBLE,
+PreClosePrice DOUBLE,
+PreOpenInterest INT,
+OpenPrice DOUBLE,
+HighestPrice DOUBLE,
+LowestPrice DOUBLE,
+Volume INT,
+Turnover DOUBLE,
+OpenInterest INT,
+ClosePrice DOUBLE,
+SettlementPrice DOUBLE,
+UpperLimitPrice DOUBLE,
+LowerLimitPrice DOUBLE,
+UpdateTime TEXT,
+UpdateMillisec INT,
+BidPrice1 DOUBLE,
+BidVolume1 INT,
+AskPrice1 DOUBLE,
+AskVolume1 INT,
+AveragePrice DOUBLE,
+seq_num INT NOT NULL
+);
+
+// data_2_0.db
+sqlite> select * from v1404_Day  limit 5;
+TickTime|High|Low|Open|Close|Vol|OI|Avg
+2013-04-26T00:00:00|6925.0|6725.0|6725.0|6925.0|0.0|2.0|6925.0
+sqlite> select * from v1404_Min  limit 5;
+TickTime|High|Low|Open|Close|Vol|OI|Avg
+2013-04-26T09:00:00|6725.0|6725.0|6725.0|6725.0|0.0|0.0|0.0
+2013-04-26T09:01:00|6725.0|6725.0|6725.0|6725.0|0.0|0.0|0.0
+2013-04-26T09:02:00|6725.0|6725.0|6725.0|6725.0|0.0|0.0|0.0
+2013-04-26T09:03:00|6725.0|6725.0|6725.0|6725.0|0.0|0.0|0.0
+2013-04-26T09:04:00|6725.0|6725.0|6725.0|6725.0|0.0|0.0|0.0
+sqlite> select * from zn8888_Min where vol != 0  limit 5;
+TickTime|High|Low|Open|Close|Vol|OI|Avg
+2010-04-07T09:00:00|19745.0|19700.0|19745.0|19715.0|8296.0|210540.0|3945.0
+2010-04-07T09:01:00|19745.0|19710.0|19715.0|19735.0|4618.0|211476.0|3945.0
+2010-04-07T09:02:00|19775.0|19725.0|19730.0|19775.0|8952.0|212858.0|3945.0
+2010-04-07T09:03:00|19780.0|19750.0|19775.0|19755.0|6164.0|213620.0|3950.0
+2010-04-07T09:04:00|19760.0|19745.0|19760.0|19750.0|4058.0|215094.0|3950.0
+
+select * from tcontracts where minday = "Day" limit 30;
+select distinct ticker from tcontracts order by ticker ASC;
+
+sqlite> .schema IF1312_Day
+CREATE TABLE IF1312_Day (
+"TickTime"  DateTime NOT NULL,
+"High"  REAL NOT NULL,
+"Low"  REAL NOT NULL,
+"Open"  REAL NOT NULL,
+"Close"  REAL NOT NULL,
+"Vol"  REAL NOT NULL,
+"OI"  REAL NOT NULL,
+"Avg"  REAL,
+PRIMARY KEY ("TickTime" ASC)
+);
+sqlite> .schema IF1312_Min
+CREATE TABLE IF1312_Min (
+"TickTime"  DateTime NOT NULL,
+"High"  REAL NOT NULL,
+"Low"  REAL NOT NULL,
+"Open"  REAL NOT NULL,
+"Close"  REAL NOT NULL,
+"Vol"  REAL NOT NULL,
+"OI"  REAL NOT NULL,
+"Avg"  REAL,
+PRIMARY KEY ("TickTime" ASC)
+);
+sqlite> .schema tcontracts
+CREATE TABLE tcontracts (
+"contract" TEXT NOT NULL,
+"ticker" TEXT NOT NULL,
+ "deliver" TEXT  NOT NULL,
+"minday" TEXT NOT NULL,
+PRIMARY KEY ("contract" ASC, "minday" ASC)
+);
+
+
+SELECT (contract || "_" || minday FROM tcontracts) as t WHERE ticker == 'IF' and minday == 'Min' order by deliver ASC
+ 
+//////////////////////////////////////////////20150204
+sql_create_table = """CREATE TABLE mktinfo (
+    id INT NOT NULL
+    ,thread INT NOT NULL
+    ,TradingDay INT NOT NULL
+    ,InstrumentID TEXT NOT NULL
+    ,LastPrice DOUBLE NOT NULL
+    ,PreSettlementPrice DOUBLE
+    ,PreClosePrice DOUBLE
+    ,PreOpenInterest INT
+    ,OpenPrice DOUBLE
+    ,HighestPrice DOUBLE
+    ,LowestPrice DOUBLE
+    ,Volume INT
+    ,Turnover DOUBLE
+    ,OpenInterest INT
+    ,ClosePrice DOUBLE
+    ,SettlementPrice DOUBLE
+    ,UpperLimitPrice DOUBLE
+    ,LowerLimitPrice DOUBLE
+    ,UpdateTime TEXT
+    ,UpdateMillisec INT
+    ,BidPrice1 DOUBLE
+    ,BidVolume1 INT
+    ,AskPrice1 DOUBLE
+    ,AskVolume1 INT
+    ,AveragePrice DOUBLE
+    ,seq_num INT NOT NULL
+    ,PRIMARY KEY(seq_num, TradingDay, InstrumentID, UpdateTime, UpdateMillisec)
+    );""" 
+
+create temporary table tmp (
+       idx INTERGER PRIMARY KEY ASC,
+    id INT NOT NULL
+    ,thread INT NOT NULL
+    ,TradingDay INT NOT NULL
+    ,InstrumentID TEXT NOT NULL
+    ,LastPrice DOUBLE NOT NULL
+    ,PreSettlementPrice DOUBLE
+    ,PreClosePrice DOUBLE
+    ,PreOpenInterest INT
+    ,OpenPrice DOUBLE
+    ,HighestPrice DOUBLE
+    ,LowestPrice DOUBLE
+    ,Volume INT
+    ,Turnover DOUBLE
+    ,OpenInterest INT
+    ,ClosePrice DOUBLE
+    ,SettlementPrice DOUBLE
+    ,UpperLimitPrice DOUBLE
+    ,LowerLimitPrice DOUBLE
+    ,UpdateTime TEXT
+    ,UpdateMillisec INT
+    ,BidPrice1 DOUBLE
+    ,BidVolume1 INT
+    ,AskPrice1 DOUBLE
+    ,AskVolume1 INT
+    ,AveragePrice DOUBLE
+    ,seq_num INT NOT NULL )
+
+
+
+CREATE TABLE if not exists `oneminute` (
+  `tradingday` date NOT NULL,
+  `updatetime` time NOT NULL,
+  `instrumentid` varchar(31) NOT NULL,
+  `open` double NOT NULL,
+  `high` double NOT NULL,
+  `low` double NOT NULL,
+  `close` double NOT NULL,
+  `volume` int(11) NOT NULL,
+  `openint` int(11) NOT NULL,
+  PRIMARY KEY (`instrumentid`,`tradingday`,`updatetime`)
+) ENGINE=InnoDB DEFAULT CHARSET=utf8
+
+  
+// 20150420	
+select instrumentid,updatetime ||":"|| updatemillisec,volume from mktinfo where tradingday=20150416 order by instrumentid,seq_num
+select instrumentid,updatetime,updatemillisec,volume from mktinfo where tradingday=20150416 order by instrumentid,seq_num
+       
+CREATE TABLE if not exists contracts (
+       instrumentid TEXT NOT NULL,
+       min_date INT,
+       max_date INT,
+       cnt INT,
+       manual_flag INT NOT NULL,	
+       update_time INT NOT NULL,
+       PRIMARY KEY (instrumentid)
+)      
+
+insert into contracts 
+select instrumentid,min(tradingday) as min, max(tradingday) as max, count(*),0,datetime() from mktinfo 
+where 
+( LastPrice <= upperlimitprice and
+LastPrice >= lowerlimitprice ) 
+and 
+(
+substr(updatetime,1,5) <= "02:30" or 
+(substr(updatetime,1,5) >= "09:00" and substr(updatetime,1,5) <= "15:15") or 
+substr(updatetime,1,5) >= "21:00" 
+)
+group by instrumentid
+      
+      
+// 20150422
+1) mngmnt
+valid
+contracts
+
+insert into contracts 
+select instrumentid,min(tradingday) as min, max(tradingday) as max, count(*),0,datetime() from mktinfo 
+where 
+LastPrice <= upperlimitprice and
+LastPrice >= lowerlimitprice and
+(
+substr(updatetime,1,5) <= "02:30" or 
+(substr(updatetime,1,5) >= "08:55" and substr(updatetime,1,5) <= "15:15") or 
+substr(updatetime,1,5) >= "20:55" 
+)
+group by instrumentid
+      
+// 20150423
+CREATE TABLE if not exists `oneminute` (
+  `tradingday` INT NOT NULL,
+  `updatetime` text NOT NULL,
+  `instrumentid` text NOT NULL,
+  `open` double NOT NULL,
+  `high` double NOT NULL,
+  `low` double NOT NULL,
+  `close` double NOT NULL,
+  `volume` int NOT NULL,
+  `openint` int NOT NULL,
+  PRIMARY KEY (`instrumentid`,`tradingday`,`updatetime`)
+)
+
+// 20150424
+// mysql
+CREATE TABLE `oneminute` (
+  `tradingday` date NOT NULL,
+  `updatetime` time NOT NULL,
+  `instrumentid` varchar(31) NOT NULL,
+  `open` double NOT NULL,
+  `high` double NOT NULL,
+  `low` double NOT NULL,
+  `close` double NOT NULL,
+  `volume` int(11) NOT NULL,
+  `openint` int(11) NOT NULL,
+  PRIMARY KEY (`instrumentid`,`tradingday`,`updatetime`)
+) ENGINE=InnoDB DEFAULT CHARSET=utf8 
+
+// 20150428
+CREATE TABLE IF NOT EXISTS daily (
+       tradingday INT NOT NULL,
+       instrumentid TEXT NOT NULL,
+       open DOUBLE NOT NULL,
+       high DOUBLE NOT NULL,
+       low DOUBLE NOT NULL,
+       close DOUBLE NOT NULL,
+       volume INT NOT NULL,
+       openint INT NOT NULL,
+       PRIMARY KEY (tradingday, instrumentid)
+)
+// 20150430
+CREATE TABLE IF NOT EXISTS exchanges (
+       id TEXT NOT NULL,
+       name TEXT NOT NULL,
+       date_start INT NOT NULL,
+       date_last INT NOT NULL,
+       manual_flag INT NOT NULL,
+       update_time TEXT NOT NULL,
+       PRIMARY KEY (id, name)
+)
+
+CREATE TABLE if not exists sectors (
+       id INT NOT NULL,
+       sector TEXT NOT NULL,
+       name TEXT NOT NULL,
+       min_date INT,
+       max_date INT,
+       exchange TEXT NOT NULL,
+       manual_flag INT NOT NULL,	
+       update_time INT NOT NULL,
+       PRIMARY KEY (sector,exchange)
+)      	       
+
+CREATE TABLE if not exists contracts (
+       instrumentid TEXT NOT NULL,
+       min_date INT,
+       max_date INT,
+       sector TEXT NOT NULL,
+       manual_flag INT NOT NULL,	
+       update_time INT NOT NULL,
+       PRIMARY KEY (instrumentid)
+)      	       
+
+CREATE TABLE IF NOT EXISTS tradingday (
+       tradingday INT UNIQUE NOT NULL
+)
+
+CREATE TABLE IF NOT EXISTS daily (
+       tradingday INT NOT NULL,
+       instrumentid TEXT NOT NULL,
+       open DOUBLE NOT NULL,
+       high DOUBLE NOT NULL,
+       low DOUBLE NOT NULL,
+       close DOUBLE NOT NULL,
+       volume INT NOT NULL,
+       openint INT NOT NULL,
+       settlementprice DOUBLE NOT NULL,
+    PreSettlementPrice DOUBLE NOT NULL,
+    PreClosePrice DOUBLE NOT NULL,
+    PreOpenInterest INT NOT NULL,
+    PRIMARY KEY (tradingday, instrumentid)
+)
+
+CREATE TABLE IF NOT EXISTS quasi_daily (
+       tradingday INT NOT NULL,
+       updatetime TEXT NOT NULL,
+       instrumentid TEXT NOT NULL,
+       lowerlimitprice DOUBLE NOT NULL,
+       upperlimitprice DOUBLE NOT NULL,
+       PRIMARY KEY (tradingday, updatetime, instrumentid)
+)
+
+
+
+CREATE TABLE IF NOT EXISTS main_contracts (
+       sector TEXT NOT NULL,
+       instrumentid TEXT NOT NULL,
+       tradingday INT NOT NULL,
+       volume_or_openint INT NOT NULL,
+       PRIMARY KEY (sector,instrumentid,tradingday,volume_or_openint)
+)
+	
+// 20150508
+select count(*) from contracts where "00" = substr(instrumentid,length(instrumentid)-1) 
+select distinct instrumentid from contracts where "00" = substr(instrumentid,length(instrumentid)-1) 
+select instrumentid,count(*) as cnt from oneminute where 
+instrumentid in (select distinct instrumentid from contracts where "00" = substr(instrumentid,length(instrumentid)-1))  
+group by instrumentid
+order by cnt DESC
+
+select * from sectors where 'ZJ' = exchange
+AU30,AU31,AU32,AU33,AU34,AU35  #227@1min
+select instrumentid,count(*) from oneminute where instrumentid in 
+(select instrumentid from contracts where 'AU' = substr(instrumentid,1,2) and cast(substr(instrumentid,3,2) as integer) > 13)
+group by instrumentid
+
+select distinct substr(instrumentid,3,2) as ss from contracts where cast(ss as integer) > 13 
+select instrumentid from contracts where cast(substr(instrumentid,3,2) as integer) > 13 
+
+select instrumentid,count(*) as cnt from oneminute 
+where
+updatetime >= 130000 and updatetime <= 190000 and '00' = substr(instrumentid,length(instrumentid)-1,2) 
+group by instrumentid having cnt >= 227 order by cnt DESC 
+
+select instrumentid,count(*) as cnt from oneminute 
+where
+updatetime >= 130000 and updatetime <= 190000 and '00' = substr(instrumentid,length(instrumentid)-1,2) 
+group by instrumentid  order by cnt DESC 
+
+select count(*) from (
+select instrumentid,count(*) as cnt from oneminute 
+where
+updatetime >= 130000 and updatetime <= 190000 and '00' = substr(instrumentid,length(instrumentid)-1,2) 
+group by instrumentid  order by cnt DESC 
+)
+
+insert into continuous 
+select instrumentid from oneminute 
+where
+updatetime >= 130000 and updatetime <= 190000 and '00' = substr(instrumentid,length(instrumentid)-1,2) 
+group by instrumentid  having count(*) >= 226 

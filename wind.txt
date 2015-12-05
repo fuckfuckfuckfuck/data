@@ -1,0 +1,78 @@
+# -*- coding: utf-8 -*-
+"""
+Created on Mon Sep 29 10:01:01 2014
+
+@author: Administrator
+"""
+
+#wind
+from WindPy import w
+from datetime import *
+import numpy 
+import pickle
+
+class singlecontr:
+    strs = ""
+    lists = []
+    def __init__(self,strs,lists):
+        self.strs = str(strs)
+        self.lists = lists
+
+def getdailyohlc(contracts):
+    w.start()
+#    w.start(waitTime=60)
+    if w.isconnected() != True:
+        print "not connecteds!"
+        return
+    fields = ['OPEN','HIGH','LOW','CLOSE','VOLUME','AMOUNT','OI']      
+    dataseries = []
+    for contr in contracts:
+        tmp = w.wsd(str(contr[0]),fields,contr[1],contr[2])
+        tmp1 = singlecontr(str(contr[0]),tmp.Data)        
+        dataseries.append(tmp1)
+    w.stop()
+    return dataseries
+
+ifcntct = numpy.dtype({'names':['ticker','ftdate','ltdate'],'formats':['S10','S10','S10']}, align = True)
+
+def Wscancontracts(filestr):
+    reader = open(filestr,'r')
+    i = int(0)
+    for line in reader:
+        i = i+1
+    reader.close()    
+## 
+    reader1 = open(filestr,'r')        
+    contracts = numpy.zeros((i), dtype=ifcntct)    
+    j = int(0)
+    for line in reader1:
+        line = line.strip()
+        line = line.split(',')
+        contracts[j]['ticker'] = line[0]
+        contracts[j]['ftdate'] = line[1]
+        contracts[j]['ltdate'] = line[2] 
+#        print(contracts[j])
+        j = j+1      
+    return contracts            
+        
+
+a = Wscancontracts("ifcontracts.csv")        
+b = getdailyohlc(a) 
+
+## dump data
+with open('entry.f','wb') as g:
+    pickle.dump(b,g)
+    g.close()    
+
+## import data:
+with open('entry.f','rb') as h:
+    entry = pickle.load(h)
+    h.close()
+
+
+#import json
+#with open('entry.json',mode='w',encoding='utf-8') as j:
+#    json.dump(f,j)
+#    j.close()
+
+

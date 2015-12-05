@@ -1,0 +1,235 @@
+57a58,59
+> pscp -v D:\bin\pyproject\ctpdata\ctpdata.7z dell@218.244.141.201:/home/dell/
+> pscp -v D:\Documents\BK\ali.7z dell@218.244.141.201:/home/dell/data 
+788c790
+< CREATE TABLE IF NOT EXISTS sector (
+---
+> CREATE TABLE IF NOT EXISTS exchanges (
+798,800c800,810
+< CREATE TABLE IF NOT EXISTS tradingday (
+<        tradingday INT UNIQUE NOT NULL
+< )
+---
+> CREATE TABLE if not exists sectors (
+>        id INT NOT NULL,
+>        sector TEXT NOT NULL,
+>        name TEXT NOT NULL,
+>        min_date INT,
+>        max_date INT,
+>        exchange TEXT NOT NULL,
+>        manual_flag INT NOT NULL,	
+>        update_time INT NOT NULL,
+>        PRIMARY KEY (sector,exchange)
+> )      	       
+811a822,824
+> CREATE TABLE IF NOT EXISTS tradingday (
+>        tradingday INT UNIQUE NOT NULL
+> )
+848,874d860
+< CREATE TABLE if not exists contracts (
+<        instrumentid TEXT NOT NULL,
+<        min_date INT,
+<        max_date INT,
+<        manual_flag INT NOT NULL,	
+<        update_time INT NOT NULL,
+<        PRIMARY KEY (instrumentid)
+< )      	       
+< 
+< 
+< // 20150430
+< 建表
+< oneminute
+< exchanges
+< sectors
+< contracts
+< tradingday
+< mktvital
+< realizedcorr
+< 
+< 
+< 
+< daily
+< quasi_daily
+< main_contracts
+< 
+< 	
+892d877
+< // continuous 
+896c881
+< group by instrumentid  order by cnt DESC 
+---
+> group by instrumentid having cnt >= 227 order by cnt DESC 
+898d882
+< select count(*) from (
+903,918d886
+< )
+< 
+< select instrumentid, count(*) as cnt from oneminute 
+< where
+< tradingday = 20150511 and substr(updatetime,1,4) != "1530" and 
+< updatetime >= 130000 and updatetime <= 190000 and '00' = substr(instrumentid,length(instrumentid)-1,2) 
+< group by instrumentid having cnt >= 226 order by cnt DESC 
+< 
+< insert into continuous 
+< select instrumentid from oneminute 
+< where 
+< tradingday = 20150511 and substr(updatetime,1,4) != "1530" and 
+< updatetime >= 130000 and updatetime <= 190000 and '00' = substr(instrumentid,length(instrumentid)-1,2) 
+< group by instrumentid  having count(*) >= 220  
+< 
+< 
+920,931c888
+< insert or ignore into continuous 
+< select instrumentid from oneminute 
+< where
+< tradingday = 20150511 and '00' = substr(instrumentid,length(instrumentid)-1,2) 
+< group by instrumentid 
+< 
+< select substr(updatetime,1,4) as dt from oneminute where 
+< instrumentid = "AU30" and dt not in (
+< select substr(updatetime,1,4) as dd from oneminute where instrumentid = "AU32"
+< );
+< 
+< // continuous
+---
+> select count(*) from (
+934,935c891
+< updatetime > 130000 and updatetime < 190000 and substr(updatetime,1,4) != "1530" and 
+< substr(instrumentid,1,2) = "AU" and '13' < substr(instrumentid,length(instrumentid)-1,2) 
+---
+> updatetime >= 130000 and updatetime <= 190000 and '00' = substr(instrumentid,length(instrumentid)-1,2) 
+937,954d892
+< 
+< insert into continuous
+< select instrumentid from oneminute 
+< where
+< updatetime > 130000 and updatetime < 190000 and substr(updatetime,1,4) != "1530" and 
+< substr(instrumentid,1,2) = "AU" and '13' < substr(instrumentid,length(instrumentid)-1,2) 
+< group by instrumentid  
+< 
+< x = np.array([1,2,4,7,0])
+< np.diff(x)
+< sum(x)
+< 
+< // 20150512
+< // mktvital 
+< CREATE TABLE IF NOT EXISTS mktvital (
+< )
+< 
+< CREATE TABLE IF NOT EXISTS realizedcorr (
+957,1049c895
+< 
+< select distinct substr(updatetime,1,4) from oneminute where instrumentid in 
+< (select * from continuous) and tradingday = 20150511 and
+< updatetime >130000 and updatetime < 190000
+< 
+< select close,volume,amount,openint from oneminute where 
+< tradingday = ? and 
+< instrumentid = ? and updatetime > 130000 and updatetime < 190000 and substr(updatetime,1,4) != "1530" 
+< order by updatetime ASC;
+< 
+< // 20150515
+< // aggregate min 
+< CREATE TEMP TABLE if not exists `minutes` (
+<   `tradingday` INT NOT NULL,
+<   `updatetime` text NOT NULL,
+<   `instrumentid` text NOT NULL,
+<   `open` double NOT NULL,
+<   `high` double NOT NULL,
+<   `low` double NOT NULL,
+<   `close` double NOT NULL,
+<   `volume` int NOT NULL,
+<   `openint` int NOT NULL,
+<   PRIMARY KEY (`instrumentid`,`tradingday`,`updatetime`)
+< )
+< 
+< insert into temp.minutes (updatetime,open,high,low,close,volume,openint)  
+< SELECT updatetime,open,high,low,close,volume,openint from oneminute 
+< where tradingday =  and instrumentid = 
+< // 20150518 continue:
+< // consistency checking:
+< select count(*) from oneminute where high < close or high < open or low > close or low >close or low > high ;
+< // general stat
+< select tradingday, count(*) from oneminute group by tradingday;
+< select * from (select distinct cast(substr(updatetime,1,length(updatetime)-2) as integer) as dt from oneminute order by dt );
+< select distinct cast(substr(updatetime,1,length(updatetime)-2) as integer) as dt from oneminute 
+< where instrumentid NOT in (
+< select distinct instrumentid from contracts where sector in (select distinct sector from sectors where exchange = "ZJ")
+< ) order by dt ASC
+< // time interval, CEFFEX excluded, 560 all together:
+< [100,630] 
+< [1300,1415]
+< [1430,1530]
+< [1730,1901]
+< // 1901: DCE + invalid openint
+< select * from oneminute where substr(updatetime,1,length(updatetime)-2) = "1901" ;
+< tradingday  updatetime  instrumentid  open        high        low         close       volume      amount      openint   
+< ----------  ----------  ------------  ----------  ----------  ----------  ----------  ----------  ----------  ----------
+< 20150515    190136      BB05          85.0        85.0        85.0        85.0        64          272         0         
+< 20150515    190136      I05           480.0       480.0       480.0       480.0       862         4077        0         
+< 20150515    190136      J05           835.0       835.0       835.0       835.0       602         4886        0         
+< 20150515    190136      L05           10090.0     10090.0     10090.0     10090.0     2920        15655       0         
+< 20150515    190136      P05           5456.0      5456.0      5456.0      5456.0      84          447         0         
+< 20150515    190136      PP05          9100.0      9100.0      9100.0      9100.0      348         1627        0      
+< 
+< http://log4cplus.sourceforge.net/docs/html/classlog4cplus_1_1thread_1_1AbstractThread.html#a37650cc367951e2c424254f3968f8349
+< http://log4cplus.sourceforge.net/docs/html/globals.html
+< http://honey-bee.iteye.com/blog/65805
+< http://www.tuicool.com/articles/yaMfey
+< http://everet.org/emacs-tips-for-python-programmer.html
+< http://aifreedom.com/technology/112
+< http://www.metatrader5.com/en/terminal/help/analytics/indicators/trend_indicators/dema
+< http://www.ta-lib.org/hdr_dw.html
+< 
+< www.metastock.com/Customer/Resources/TAAZ/Default.aspx?p=74
+< http://www.ta-lib.org/function.html
+< http://mrjbq7.github.io/ta-lib/func_groups/overlap_studies.html
+< http://www.quantshare.com/index.php?option=manual&dir=/QuantShare%20Language/Indicators/Ht_Trendline%200.html
+< https://www.linnsoft.com/techind/mesa-adaptive-moving-average-mama
+< http://www.tradeforextrading.com/index.php/mesa-adaptive-average
+< http://gbeced.github.io/pyalgotrade/docs/v0.16/html/sample_bbands.html
+< http://gbeced.github.io/pyalgotrade/docs/v0.16/html/talib.html
+< 
+< http://218.244.141.201:8080/
+< http://shop116202631.taobao.com/search.htm?spm=a1z10.1-c.0.0.mNpo6v&search=y&orderType=hotsell_desc
+< file:///D:/Documents/Downloads/CTP/tomas_ctp_manual_6_2_5_20140811_linux64%20-%20%E5%89%AF%E6%9C%AC.html
+< http://stackoverflow.com/questions/3136919/c-state-design-pattern-with-multiple-state-machines?rq=1
+< http://quantlib.org/qlws14.shtml
+< https://code.google.com/p/hudson/
+< http://stackoverflow.com/questions/1647631/c-state-machine-design
+< http://stackoverflow.com/questions/133214/is-there-a-typical-state-machine-implementation-pattern?lq=1
+< http://stackoverflow.com/questions/2705173/designing-a-state-machine-in-c?rq=1
+< http://qhkh.cofool.com/news/index.shtml
+< http://qhziguan.lhtz.com/
+< http://qhsz.qhrb.com.cn/
+< 
+< 
+< 
+< // 20150521
+< select count(*) from mktvital where 0.0001 >= (efficiency+volatility+hot) 
+< 
+< create temp table tmp (instrumentid text);
+< 
+< insert into tmp 
+---
+> insert into continuous 
+1051,1064c897,899
+< where 
+< tradingday = 20150518 and updatetime > 132000 and
+< updatetime <= 185000 and "00" = substr(instrumentid,length(instrumentid)-1,2) 
+< group by instrumentid having count(*) >= 194;
+< 
+< 
+< select tradingtime from tradingtime  
+< where 
+< tradingtime > 1320 and tradingtime <= 1850 and tradingtime not in (
+< select substr(updatetime,1,length(updatetime)-2) from oneminute where 
+< tradingday = 20150518 and instrumentid in  
+< 
+< 
+< python:file has opened and written in buffer, how to endure into HDD? ==> self.__scanErrorFile = open(self.__errorFileStr, 'a') # diff addr, though the same name !!!
+\ No newline at end of file
+---
+> where
+> updatetime >= 130000 and updatetime <= 190000 and '00' = substr(instrumentid,length(instrumentid)-1,2) 
+> group by instrumentid  having count(*) >= 226 
