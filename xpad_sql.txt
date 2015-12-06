@@ -55,58 +55,11 @@ path=%path%;C:\\Program Files\\MySQL\\MySQL Server 5.6\\bin\\
 	   -rw-rw-r-- 1 dell dell 14571321 Mar  6 08:57 20150303.7z
 	   -rw-rw-r-- 1 dell dell  8714649 Mar  3 17:02 20150302.7z
 
-pscp -v D:\bin\pyproject\ctpdata\scanCtp.py dell@218.244.141.201:/home/dell/bin/pyproject/ctpdata 
-pscp -v dell@218.244.141.201:/alidata/ctp/test7/7d/20150427.7z E:\\data\\alidata\\ctp\\test7\\7d  
-pscp -v D:\bin\pyproject\ctpdata\0.txt dell@218.244.141.201:/home/dell/data   
-pscp -v D:\bin\pyproject\ctpdata\scanData.py dell@218.244.141.201:/home/dell/data/scanData.py  
-pscp -v dell@218.244.141.201:/alidata/ctp/test7/7d/20150330.7z E:\\data\\alidata\\ctp\\test7\\7d  
-pscp -v bb.txt dell@218.244.141.201:/home/dell/bin/pyproject/20150401boll			  
-pscp -v dell@218.244.141.201:/alidata/ctp/test7/7d/20150319.7z E:\\data\\alidata\\ctp\\test7\\7d 
-pscp -v dell@218.244.141.201:/alidata/ctp/test7/7d/20150302.7z E:\\data\\alidata\\ctp\\test7\\7d 
-pscp -v dell@218.244.141.201:/alidata/ctp/test7/7d/20150212.7z E:\\data\\alidata\\ctp\\test7\\7d 
-pscp -v dell@218.244.141.201:/alidata/ctp/test7/7d/20150209.7z E:\\data\\alidata\\ctp\\test7\\7d 
-pscp -v dell@218.244.141.201:/alidata/ctp/test7/7e/20150120.7z E:\\data\\alidata\\ctp\\test7\\7e 
-pscp -v D:\bin\ctp\d.tar.gz dell@218.244.141.201:/home/dell/bin/ctp/test3/test5/b/td_only/7d/td/_3c 
-pscp -v dell@218.244.141.201:/alidata/ctp/test7/7d/20150205.7z E:\\data\\alidata\\ctp\\test7\\7d 
-pscp -v dell@218.244.141.201:/alidata/ctp/test7/7d/20150119A.7z E:\\data\\alidata\\ctp\\test7\\7d 
-pscp -v dell@218.244.141.201:/home/dell/bin/pyproject/ctpdata/test20150119.tar E:\\data\\alidata\\ctp\\test7\\7d 
-pscp -v dell@218.244.141.201:/alidata/ctp/test7/7d/20150113.7z E:\\data\\alidata\\ctp\\test7\\7d 
-pscp -v dell@218.244.141.201:/alidata/ctp/test7/7d/20150112A.7z E:\\data\\alidata\\ctp\\test7\\7d 
-pscp -v dell@218.244.141.201:/alidata/ctp/test7/7d/20150112.7z E:\\data\\alidata\\ctp\\test7\\7d 
-pscp -v dell@218.244.141.201:/alidata/ctp/test7/7d/20150109A.7z E:\\data\\alidata\\ctp\\test7\\7d 
-pscp -v dell@218.244.141.201:/alidata/ctp/test7/7d/20150109.7z E:\\data\\alidata\\ctp\\test7\\7d 
-pscp -v dell@218.244.141.201:/alidata/ctp/test7/7d/20150108A.7z E:\\data\\alidata\\ctp\\test7\\7d 
-pscp -v dell@218.244.141.201:/alidata/ctp/test7/7d/20150108.7z E:\\data\\alidata\\ctp\\test7\\7d 
-pscp -v dell@218.244.141.201:/alidata/ctp/test7/7d/20150107.7z E:\\data\\alidata\\ctp\\test7\\7d 
-pscp -v dell@218.244.141.201:/alidata/ctp/test7/7d/2014_2015.7z E:\\data\\alidata\\ctp\\test7\\7d 
-pscp -v dell@218.244.141.201:/alidata/ctp/20150106.7z E:\\data\\alidata\\ctp\\
-pscp -v dell@218.244.141.201:/alidata/ctp/20150105.7z E:\\data\\alidata\\ctp\\ 
-pscp -v dell@218.244.141.201:/alidata/ctp/test7/Test.logs.7z E:\\data\\alidata\\ctp\\test7 
-pscp -v eapis.7z dell@218.244.141.201:/home/dell/bin/ctp/test3/test5/b/td_only/
-pscp -v dell@218.244.141.201:/home/dell/bin/ctp/test3/test5/b/td_only/Test.log . 
-pscp -v dell@218.244.141.201:/home/dell/bin/pyproject/ctpdata/test20150105.tar . 
-pscp -v D:\bin\ali\test3\test4.rar dellsz@120.24.58.4:/home/dellsz/bin/ 
-pscp -v dellsz@120.24.58.4:/home/dellsz/bin/ctp/logmd/20141216.7z . 
-scp -v dellsz@120.24.58.4:/home/dellsz/bin/ctp/logtd/Makefile . 
-scp -v dell@218.244.141.201:/home/dell/bin/ctp/test3/test5/3.txt .
-scp -v dell@218.244.141.201:/home/dell/bin/mon*/mongoose.*  . 
-scp -v dell@218.244.141.201:/home/dell/bin/ctp/test3/t34.tar . 
-scp -v dell@218.244.141.201:/home/dell/bin/ctp/test7/7d/tmp.tar E:\\data\\alidata\\ctp\\20141215.tar 
-scp -v dell@218.244.141.201:/home/dell/bin/ctp/test3/test5/3.txt .
-pscp -v dellsz@120.24.58.4:/home/dellsz/bin/mon*/mongoose.*  . 
-pscp -v dellsz@120.24.58.4:/home/dellsz/bin/ctp/logmd/201412*.7z E:\\data\\alidata 
-pscp -v D:\Documents\Downloads\data_2.0_20100401_20130426.7z dellsz@120.24.58.4:/home/dellsz/data
-pscp -v E:\data\alidata\ctp\ctp.rar dellsz@120.24.58.4:/home/dellsz/Downloads/
-pscp -v dell@218.244.141.201:/alidata/ctp/test7/7d/2014_2015.7z E:\\data\\alidata\\ctp\\ 
-pscp -v dell@218.244.141.201:/alidata/ctp/20141209.7z E:\\data\\alidata\\ctp\\ 
-pscp -v dell@218.244.141.201:/home/dell/bin/pyproject/ifArb_1.py . 
-pscp -v dell@218.244.141.201:/home/dell/Downloads/6.2.0_201312041840_apitraderapi_linux64/test6/tmp0.7z E:\\data\\alidata\\ctp\\ 
-pscp -v dell@218.244.141.201:/home/dell/Downloads/6.2.0_201312041840_apitraderapi_linux64/test6/tmp1105/test.cpp E:\\data\\alidata\\ctp\\ 
-pscp -v dell@218.244.141.201:/home/dell/Downloads/6.2.0_201312041840_apitraderapi_linux64/test6/tmp/test.txt E:\\data\\alidata\\ctp\\ 
-pscp -v dell@218.244.141.201:/var/lib/tomcat6/webapps/ROOT/WEB-INF/cgi/test2.cpp E:\\data\\alidata\\tomcat\\ 
+pscp -v D:\bin\pyproject\ctpdata\scanCtp.py dell@111:/home/dell/bta 
+pscp -v dlk@28.2.201:/var/lib/tomcat6/webapps/ROOT/WEB-INF/cgi/test2.cpp E:\\data\\alidata\\tomcat\\ 
 
 /var/lib/tomcat6/webapps/ROOT/WEB-INF/cgi/test2.cpp tomcat\\ 
-pscp -v E:\\data\\fromPing\\data_2_0.db dellsz@120.24.58.4:/home/dellsz/data
+pscp -v E:\\data\\fromPing\\data_2_0.db lsz@122.22.58.4:/home/dellsz/data
 
 .headers ON
 .nullvalue "NULLVALUE"
